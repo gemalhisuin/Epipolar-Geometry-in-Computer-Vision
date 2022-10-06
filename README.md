@@ -31,3 +31,12 @@ Where F is the fundamental matrix and e and e’ are the epipoles. The fundament
 matrix F maps a point to its corresponding epipolar line in the other image. Thus, the
 epipolar line in the second image of a point x in the first image is l=Fx and, going the
 other way, l=transpose(F)x. The epipoles themselves are right and left null vectors, respectively, of F, i.e., Fe=0 and transpose(F)e=0.
+
+4. A method that allows us to see the epipolar line in the right image corresponding to any point in the left image. That means,
+if you click one point in the left image you should see the epipolar line in the right image.
+
+Epipolar lines are formed by the intersection of the epipolar plane and the two image planes. The epipolar lines in the image plane have the property of intersecting the baseline at the corresponding epipoles. The epipoles oL and oR are located at infinity when the two image planes are parallel.
+The epipolar plane will be used to determine the epipolar line if the camera positions oL and oR, as well as the image point X, are first known. The epipolar line of the image on the right would ideally be located on X’s projection into the image on the right. As a result, a simple knowledge of epipolar geometry enables one to establish a tight connection between image pairs without knowing the scene’s 3D structure.
+
+![image](https://user-images.githubusercontent.com/22916069/194384370-b1efb787-6ff2-434c-88e8-daee4a73decb.png)
+Figure 1.2: Epipolar line with obtained corresponding points
