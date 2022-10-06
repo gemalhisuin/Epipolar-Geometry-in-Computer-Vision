@@ -12,7 +12,7 @@ directly from the image data. In our case, we are using the hand-based approach 
 
 ![image](https://user-images.githubusercontent.com/22916069/194381315-ca5e5b16-0f1c-468b-911b-ccfee4744c06.png)
 
-Figure 1.1: corresponding points
+<figcaption align = "center"><b>Figure 1.1: corresponding points</b> </figcaption>
 
 2. Calculate the fundamental matrix with 8 point algorithm using SVD.
 The eight-point algorithm is a computer vision algorithm that estimates the fundamental
