@@ -11,6 +11,7 @@ points, or we could use a function tracker to try to find eight appropriate corr
 directly from the image data. In our case, we are using the hand-based approach to manually obtain the corresponding points of the two given images.
 
 ![image](https://user-images.githubusercontent.com/22916069/194381315-ca5e5b16-0f1c-468b-911b-ccfee4744c06.png)
+
 Figure 1.1: corresponding points
 
 2. Calculate the fundamental matrix with 8 point algorithm using SVD.
@@ -39,4 +40,5 @@ Epipolar lines are formed by the intersection of the epipolar plane and the two 
 The epipolar plane will be used to determine the epipolar line if the camera positions oL and oR, as well as the image point X, are first known. The epipolar line of the image on the right would ideally be located on X’s projection into the image on the right. As a result, a simple knowledge of epipolar geometry enables one to establish a tight connection between image pairs without knowing the scene’s 3D structure.
 
 ![image](https://user-images.githubusercontent.com/22916069/194384370-b1efb787-6ff2-434c-88e8-daee4a73decb.png)
+
 Figure 1.2: Epipolar line with obtained corresponding points
